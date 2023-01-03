@@ -1,0 +1,235 @@
+.contactpage {
+  background: #383737;
+}
+
+.business {
+  background-color: rgba(92, 1, 1, 0.8);
+  box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.25);
+  padding: 120px 50px 50px 50px;
+}
+
+.business h3 {
+  color: #fff;
+  font-size: 40px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 55px;
+
+  color: #ffffff;
+}
+
+.business h2 {
+  color: #fff;
+  font-size: 15px;
+}
+
+.business .hr {
+  background-color: #fff;
+  height: 5px;
+  width: 80px;
+  text-align: left !important;
+}
+
+.reachform .hr {
+  background-color: #000;
+  height: 8px;
+  width: 80px;
+  text-align: left !important;
+}
+.reachform {
+  background-color: #fff !important;
+  padding: 50px;
+  /* margin-bottom: 70px; */
+}
+
+.reachform h2 {
+  color: #ed1c24;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.reachform p {
+  font-style: normal;
+  font-size: 16px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 500;
+
+  color: #000000;
+}
+
+/* .forminputs {
+  padding: 100px 0 150px 0;
+} */
+
+.forminputs input {
+  width: 100%;
+  border-radius: 0;
+  height: 50px;
+  /* margin: auto; */
+}
+.forminputs textarea {
+  width: 100%;
+  border-radius: 0;
+  /* margin: auto; */
+}
+.forminputs button {
+  background-color: #ed1c24;
+  border-radius: 42px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+  border: none !important;
+  padding: 10px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.forminputs button:hover {
+  background-color: #ed1c24 !important;
+}
+.forminputs p {
+  color: #ed1c24 !important;
+  text-align: center;
+}
+
+.webp .contactfooter {
+  background-image: url('https://tbhwebsite.s3.me-south-1.amazonaws.com/contactfooter.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0 40px 0;
+}
+.no-webp .contactfooter {
+  background-image: url('https://tbhwebsitepng.s3.me-south-1.amazonaws.com/contactfooter.png');
+
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0 40px 0;
+}
+
+.contactfooter button {
+  background-color: #ed1c24;
+  border-radius: 0 !important;
+  border: none;
+  margin-top: 25px;
+}
+.contactfooter button:hover {
+  background-color: #ed1c24 !important;
+}
+.contactfooter h6 {
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+.contactfooter p {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contactfooter h4 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #000;
+  padding-top: 15px;
+}
+
+.contactfooter .hr {
+  background-color: #000;
+  height: 5px;
+  width: 80px;
+  text-align: left !important;
+}
+
+@media (max-width: 399px) {
+  .business h3 {
+    font-size: 30px;
+  }
+}
+
+.contactpage .mycontactfooter button {
+  display: none !important;
+}
+
+@media (max-width: 500px) {
+  .business {
+    padding: 10px;
+  }
+  .business h3 {
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+
+    color: #ffffff;
+  }
+}
+
+/* .contactpage .headerbackground {
+  background-image: url('https://tbhwebsite.s3.me-south-1.amazonaws.com/contactbg.webp');
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+.webp .contactpage .headerbackground {
+  background-image: url('https://tbhwebsite.s3.me-south-1.amazonaws.com/contactbg.webp');
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.no-webp .contactpage .headerbackground {
+  background-image: url('https://tbhwebsitepng.s3.me-south-1.amazonaws.com/contactBg.png');
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 401px) and (max-width: 815px) {
+  .no-webp .contactpage .headerbackground {
+    background-image: url('https://tbhwebsitepng.s3.me-south-1.amazonaws.com/contacttablet.png');
+  }
+
+  .webp .contactpage .headerbackground {
+    background-image: url('https://tbhwebsite.s3.me-south-1.amazonaws.com/contacttablet.webp') !important;
+  }
+}
+.seccolheader p {
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.parag p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 137%;
+  color: #4d4949;
+}
+
+.parag p span {
+  color: #ed1c24;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 137%;
+}
+
+#snackbar {
+  background-color: #333;
+  padding: 15px;
+  color: white;
+}

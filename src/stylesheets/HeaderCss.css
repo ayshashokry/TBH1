@@ -1,0 +1,249 @@
+.header {
+  position: relative;
+  width: 100%;
+  padding-right: 0 !important;
+}
+
+.homeheader .homest {
+  position: relative;
+}
+.homeheader .homest::after {
+  position: absolute;
+  content: 'ST';
+  bottom: 80%;
+  left: 80%;
+  font-size: 25px;
+}
+.headertexts {
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 0;
+  height: 118vh;
+  z-index: 555;
+  padding-top: 5%;
+}
+.headeroverlay {
+  position: absolute;
+  mix-blend-mode: multiply;
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.25);
+  width: 40%;
+  left: 50%;
+  background: #aa0202;
+  transform: translate(-50%);
+  top: 0;
+  z-index: 99;
+  height: 122vh;
+}
+
+.headertexts h2 {
+  font-weight: 800;
+  font-size: 65px;
+  color: #fff !important;
+}
+
+.headertexts p {
+  font-weight: bold;
+  color: #fff !important;
+
+  padding-top: 5%;
+  font-size: 17px;
+}
+
+.headertexts h5 {
+  font-weight: normal;
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  border-left: 15px solid #fff;
+  padding-left: 3%;
+  margin-top: 5%;
+}
+
+.homeheaderoverlay {
+  position: absolute;
+  background: #aa0202;
+  mix-blend-mode: multiply;
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  width: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 0;
+  z-index: 99;
+  height: 122vh;
+}
+
+.homeheader h2 {
+  position: absolute;
+  font-weight: 800;
+  top: 40%;
+  left: 24%;
+  font-size: 90px;
+  font-style: normal;
+  z-index: 99999;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.homeheader {
+  position: relative !important;
+  margin-bottom: 150px;
+}
+
+.largewordimage {
+  position: absolute;
+  top: 95%;
+  left: 20%;
+}
+.largewordimage img {
+  width: 80%;
+}
+
+.homeheader .homegarage {
+  position: absolute;
+}
+@media (min-width: 1200px) {
+  .homeheader .homegarage {
+    left: 25% !important;
+  }
+}
+
+@media (max-width: 1120px) and (min-width: 766px) {
+  .headeroverlay {
+    width: 70%;
+    height: 110vh;
+    top: 0%;
+  }
+  .headertexts {
+    width: 70%;
+    height: 110vh;
+    top: 13%;
+  }
+  .headertexts h2 {
+    font-weight: 800;
+    font-size: 80px;
+    z-index: 99999 !important;
+    color: #fff;
+  }
+
+  .headertexts p {
+    font-size: 28px;
+  }
+
+  .homeheaderoverlay {
+    width: 70%;
+    height: 80vh;
+    top: 16%;
+  }
+  .homeheader h2 {
+    left: 22%;
+    font-size: 85px;
+  }
+}
+
+@media (max-width: 765px) and (min-width: 401px) {
+  .homeheader h2 {
+    font-weight: 800;
+    font-size: 50px;
+    z-index: 99999;
+    color: rgb(255, 255, 255);
+    left: 17%;
+    padding-top: 15%;
+  }
+  .homeheaderoverlay {
+    width: 89%;
+    height: 80vh;
+    top: 20%;
+  }
+  .homeheader .homegarage {
+    left: 0;
+  }
+  .headeroverlay,
+  .headertexts {
+    position: absolute;
+    width: 90% !important;
+    height: 84vh;
+    top: 20%;
+  }
+
+  .headertexts h2 {
+    font-weight: 800;
+    font-size: 50px;
+    z-index: 99999 !important;
+    color: #fff;
+  }
+  .headertexts {
+    padding-left: 3%;
+  }
+
+  .headertexts h5 {
+    font-size: 30px;
+  }
+  .largewordimage {
+    display: none !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .homeheader h2 {
+    font-weight: 800;
+    font-size: 44px;
+    padding-top: 15%;
+    z-index: 99999;
+    left: 17%;
+    color: rgb(255, 255, 255);
+  }
+
+  .homeheaderoverlay {
+    width: 90%;
+    height: 86vh;
+    top: 21%;
+  }
+  .homeheader .homegarage {
+    left: 0;
+  }
+  .homeheader,
+  .header {
+    margin-bottom: 5%;
+  }
+  .largewordimage {
+    display: none;
+  }
+  .headertexts h2 {
+    font-weight: 800;
+    font-size: 35px !important;
+  }
+
+  .headertexts p {
+    padding-top: 15px;
+    font-size: 14px;
+  }
+  .headertexts {
+    width: 80%;
+    height: 85vh;
+    top: 12%;
+    padding-left: 10px;
+  }
+  .headeroverlay {
+    width: 80%;
+    height: 85vh;
+    top: 22%;
+    padding-left: 10px;
+  }
+  .headertexts h5 {
+    font-weight: normal;
+    font-size: 25px !important;
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-left: 15px solid #fff;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1201px) {
+  .homeheader .homegarage {
+    left: 0 !important;
+  }
+}

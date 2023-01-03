@@ -1,0 +1,72 @@
+.fixedd {
+  width: 80px;
+  height: 100vh;
+  background-color: #282828;
+  position: fixed;
+  top: 70px;
+  z-index: 2222;
+}
+
+
+.fixedSection h6 {
+  transform: rotate(90deg);
+  position: absolute;
+  right: 0px;
+  top: 80px;
+  color: white;
+  font-size: 10px;
+
+  color: #ffffff;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.fixedSection img {
+  position: absolute;
+  left: 15px;
+  right: 0px;
+  top: 250px;
+  width: 49.78px;
+  height: 86.4px;
+}
+
+.fixedSection span {
+  /* transform: rotate(90deg); */
+  position: absolute;
+  left: 25px;
+  top: 480px;
+  color: white;
+  font-family: 'Helvetica' 'Neue' 'LT' 'Std';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  font-size: 10px;
+  color: #ffffff;
+}
+.fixedSection .icons {
+  /* transform: rotate(90deg); */
+  position: absolute;
+  left: 20px;
+  top: 500px;
+  color: white;
+  font-family: 'Helvetica' 'Neue' 'LT' 'Std';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  font-size: 15px;
+  color: #ffffff;
+}
+.myFB {
+  display: block;
+  margin: 10px;
+  background-color: white;
+  color: #282828;
+  padding: 3px;
+}
+
+@media (max-width: 1040px) {
+  .fixedd {
+    display: none;
+  }
+}
